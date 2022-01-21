@@ -23,7 +23,9 @@ body {
   padding-top: 41px;
 }
 .wrap-header {
+  display: flex;
   text-align: center;
+  flex-direction: column;
   padding-top: 305px;
 }
 .header-title {
