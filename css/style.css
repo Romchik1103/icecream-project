@@ -18,3 +18,28 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header-logo {
+  text-align: center;
+  padding-top: 41px;
+}
+.wrap-header {
+  text-align: center;
+  padding-top: 305px;
+}
+.header-title {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 5.70937px;
+  color: #ffffff;
+}
+.header-subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
