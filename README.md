@@ -1,1 +1,1 @@
-# icecream-project
+# konstruct-template
