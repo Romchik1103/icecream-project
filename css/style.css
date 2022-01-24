@@ -74,6 +74,7 @@ ul {
   line-height: 1.37;
   letter-spacing: 3.7px;
   color: #ffffff;
+  text-align: center;
 }
 /*---------------------HEADING-------------------*/
 .heading {
@@ -119,17 +120,23 @@ ul {
   letter-spacing: 2.30625px;
   color: #48555b;
   margin-bottom: 96px;
+  position: relative;
+  max-width: 150px;
 }
 .wrap-hero {
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
-.hero-title ::after {
+.hero-title:after {
   content: "";
   width: 50px;
   height: 2px;
   border: 2px solid #00a4e5;
   position: absolute;
+  display: flex;
+  bottom: -15px;
+  left: 30%;
 }
 .hero-aside {
   max-width: 405px;
@@ -155,4 +162,31 @@ ul {
   line-height: 23px;
   letter-spacing: 0.1875px;
   color: #48555b;
+}
+.hero-image {
+  display: flex;
+}
+.image-2 {
+  margin: 0 20px;
+}
+.hero-text-1 {
+  position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1875px;
+  color: #ffffff;
+  padding: 15px;
+}
+.hero-text-2 {
+  position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1875px;
+  color: #ffffff;
 }
