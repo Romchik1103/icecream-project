@@ -67,14 +67,13 @@ ul {
   margin-top: 21px;
 }
 .header-slogan {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.37;
   letter-spacing: 3.7px;
   color: #ffffff;
   text-align: center;
+  padding-top: 189px;
 }
 /*---------------------HEADING-------------------*/
 .heading {
@@ -326,6 +325,7 @@ ul {
   padding-top: 120px;
 }
 .features-btn {
+  font-weight: bold;
   background: var(--second-text-color);
   width: 150px;
   height: 40px;
@@ -341,4 +341,74 @@ ul {
 .features-btn:focus {
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
     1px 4px 6px rgb(0 0 0 / 16%);
+}
+/*-------------MAIL----------------*/
+.mail {
+  background: #171819;
+  min-height: 100px;
+}
+.wrap-mail {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.mail-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.37;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  margin: 0;
+  margin-right: 70px;
+}
+.mail-input {
+  background: #ffffff;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+}
+.mail-btn {
+  font-weight: bold;
+  background: var(--second-text-color);
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+/*----------FOOTER-----------*/
+.footer {
+  background: #141a20;
+  min-height: 240px;
+}
+.wrap-footer {
+  display: flex;
+  align-items: baseline;
+}
+.footer-company-title {
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  padding-top: 42px;
+  margin-bottom: 19px;
+}
+.footer-image {
+  margin-bottom: 15px;
+}
+.wrap-footer-link {
+  display: flex;
+}
+.footer-company-subtitle {
+  font-size: 11px;
+  line-height: 1.73;
+  letter-spacing: 0.85px;
+  color: #ffffff;
+  width: 250px;
+  height: 76px;
+  margin: 0;
 }
