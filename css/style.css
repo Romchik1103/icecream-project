@@ -389,6 +389,9 @@ ul {
   display: flex;
   align-items: baseline;
 }
+.footer-company {
+  margin-right: 71px;
+}
 .footer-company-title {
   font-size: 11px;
   line-height: 1.37;
@@ -411,4 +414,29 @@ ul {
   width: 250px;
   height: 76px;
   margin: 0;
+}
+.footer-link-subtitle {
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footer-link-item {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 2.28;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+.footer-link-list {
+  margin-right: 34px;
+}
+.footer-link-list:last-child {
+  margin: 0;
+}
+.footer-link-item:hover,
+.footer-link-item:focus {
+  color: #00a4e5;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
